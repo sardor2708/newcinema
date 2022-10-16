@@ -1,0 +1,44 @@
+@import url(../css/fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg:#040D1F ;
+    --oranege:#F18128 ;
+    --balck:#000 ;
+    --comf: 'Comfortaa', sans-serif ;
+    --mons: 'Montserrat', sans-serif ;
+    --roboto: 'Roboto', sans-serif ;
+    --w: #fff;
+}
+
+body{
+    background: var(--bg);
+    color: var(--w);
+    font-family: var(--comf);
+}
+.header__top{
+    padding: 20px 0;
+    background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+}
+.top__center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.top__p{
+    max-width: 166px;
+    font-family: var(--comf);
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+}
+.top__item{
+    font-size: 50px;
+}
