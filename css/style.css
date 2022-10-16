@@ -118,3 +118,23 @@ to{
 }
 
 }
+
+.header{
+    height: 100vh;
+}
+.banner{
+    height: 80%;
+    position: relative;
+    background: url(../img/banner.png) no-repeat center/cover;
+    z-index: 10;
+}
+
+.banner__abs{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #070F19BF;
+    z-index: -1;
+}
